@@ -10,6 +10,8 @@ for i in range(1,5):
     sys.stdout.write("z")
     sys.stdout.flush()
     time.sleep(0.3)
+    
+    
 print ("\n")
 time.sleep(2)
 print ("{}は眠っているようだ。".format(name))
